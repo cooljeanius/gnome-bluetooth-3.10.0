@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>bluetooth-plugin-manager</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="gnome-bluetooth Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference">
+<link rel="prev" href="gnome-bluetooth-bluetooth-utils.html" title="bluetooth-utils">
+<link rel="next" href="object-tree.html" title="Object Hierarchy">
+<meta name="generator" content="GTK-Doc V1.18.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gnome-bluetooth-bluetooth-utils.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">gnome-bluetooth Reference Manual</th>
+<td><a accesskey="n" href="object-tree.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gnome-bluetooth-bluetooth-plugin-manager.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#gnome-bluetooth-bluetooth-plugin-manager.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry">
+<a name="gnome-bluetooth-bluetooth-plugin-manager"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gnome-bluetooth-bluetooth-plugin-manager.top_of_page"></a>bluetooth-plugin-manager</span></h2>
+<p>bluetooth-plugin-manager — Bluetooth plug-in manager</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="gnome-bluetooth-bluetooth-plugin-manager.stability-level"></a><h2>Stability Level</h2>
+Stable, unless otherwise indicated
+</div>
+<div class="refsynopsisdiv">
+<a name="gnome-bluetooth-bluetooth-plugin-manager.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#include &lt;bluetooth-plugin-manager.h&gt;
+
+<span class="returnvalue">void</span>                <a class="link" href="gnome-bluetooth-bluetooth-plugin-manager.html#bluetooth-plugin-manager-cleanup" title="bluetooth_plugin_manager_cleanup ()">bluetooth_plugin_manager_cleanup</a>    (<em class="parameter"><code><span class="type">void</span></code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="gnome-bluetooth-bluetooth-plugin-manager.html#bluetooth-plugin-manager-device-deleted" title="bluetooth_plugin_manager_device_deleted ()">bluetooth_plugin_manager_device_deleted</a>
+                                                        (<em class="parameter"><code>const <span class="type">char</span> *bdaddr</code></em>);
+<a href="http://library.gnome.org/devel/glib/unstable/glib-Doubly-Linked-Lists.html#GList"><span class="returnvalue">GList</span></a> *             <a class="link" href="gnome-bluetooth-bluetooth-plugin-manager.html#bluetooth-plugin-manager-get-widgets" title="bluetooth_plugin_manager_get_widgets ()">bluetooth_plugin_manager_get_widgets</a>
+                                                        (<em class="parameter"><code>const <span class="type">char</span> *bdaddr</code></em>,
+                                                         <em class="parameter"><code>const <span class="type">char</span> **uuids</code></em>);
+<a href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="gnome-bluetooth-bluetooth-plugin-manager.html#bluetooth-plugin-manager-init" title="bluetooth_plugin_manager_init ()">bluetooth_plugin_manager_init</a>       (<em class="parameter"><code><span class="type">void</span></code></em>);
+</pre>
+</div>
+<div class="refsect1">
+<a name="gnome-bluetooth-bluetooth-plugin-manager.description"></a><h2>Description</h2>
+<p>
+The plugin manager is used to extend set up wizards, or preferences.
+</p>
+</div>
+<div class="refsect1">
+<a name="gnome-bluetooth-bluetooth-plugin-manager.details"></a><h2>Details</h2>
+<div class="refsect2">
+<a name="bluetooth-plugin-manager-cleanup"></a><h3>bluetooth_plugin_manager_cleanup ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                bluetooth_plugin_manager_cleanup    (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Free all the resources used by the Bluetooth plugins.
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="bluetooth-plugin-manager-device-deleted"></a><h3>bluetooth_plugin_manager_device_deleted ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                bluetooth_plugin_manager_device_deleted
+                                                        (<em class="parameter"><code>const <span class="type">char</span> *bdaddr</code></em>);</pre>
+<p>
+Removes all existing configuration for the device, as
+supported by the plug-ins.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>bdaddr</code></em> :</span></p></td>
+<td>a Bluetooth address representing a device</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="bluetooth-plugin-manager-get-widgets"></a><h3>bluetooth_plugin_manager_get_widgets ()</h3>
+<pre class="programlisting"><a href="http://library.gnome.org/devel/glib/unstable/glib-Doubly-Linked-Lists.html#GList"><span class="returnvalue">GList</span></a> *             bluetooth_plugin_manager_get_widgets
+                                                        (<em class="parameter"><code>const <span class="type">char</span> *bdaddr</code></em>,
+                                                         <em class="parameter"><code>const <span class="type">char</span> **uuids</code></em>);</pre>
+<p>
+Returns a list of widgets suitable for configuring the device
+represented by <em class="parameter"><code>address</code></em>, for the services listed in <em class="parameter"><code>uuids</code></em>.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bdaddr</code></em> :</span></p></td>
+<td>a Bluetooth address representing a device</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uuids</code></em> :</span></p></td>
+<td>an array of UUIDs supported by the device</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>a <a href="http://library.gnome.org/devel/glib/unstable/glib-Doubly-Linked-Lists.html#GList"><span class="type">GList</span></a> of <a href="http://developer.gnome.org/gtk2/GtkWidget.html"><span class="type">GtkWidget</span></a>, or <a href="http://library.gnome.org/devel/glib/unstable/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> if none. <span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> Gtk.Widget][<acronym title="Don't free data after the code is done."><span class="acronym">transfer none</span></acronym>]</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="bluetooth-plugin-manager-init"></a><h3>bluetooth_plugin_manager_init ()</h3>
+<pre class="programlisting"><a href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            bluetooth_plugin_manager_init       (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Initialise the plugin manager for Bluetooth plugins.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+<a href="http://library.gnome.org/devel/glib/unstable/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the initialisation succedeed, <a href="http://library.gnome.org/devel/glib/unstable/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> otherwise.</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.18.1</div>
+</body>
+</html>

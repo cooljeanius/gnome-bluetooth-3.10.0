@@ -1,0 +1,191 @@
+<!-- ##### SECTION ./tmpl/bluetooth-killswitch.sgml:Image ##### -->
+
+
+
+<!-- ##### SECTION ./tmpl/bluetooth-killswitch.sgml:Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION ./tmpl/bluetooth-killswitch.sgml:See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION ./tmpl/bluetooth-killswitch.sgml:Short_Description ##### -->
+
+
+
+<!-- ##### SECTION ./tmpl/bluetooth-killswitch.sgml:Stability_Level ##### -->
+
+
+
+<!-- ##### SECTION ./tmpl/bluetooth-killswitch.sgml:Title ##### -->
+BluetoothKillswitch
+
+
+<!-- ##### SECTION ./tmpl/gnome-bluetooth-enum-types.sgml:Image ##### -->
+
+
+
+<!-- ##### SECTION ./tmpl/gnome-bluetooth-enum-types.sgml:Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION ./tmpl/gnome-bluetooth-enum-types.sgml:See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION ./tmpl/gnome-bluetooth-enum-types.sgml:Short_Description ##### -->
+
+
+
+<!-- ##### SECTION ./tmpl/gnome-bluetooth-enum-types.sgml:Stability_Level ##### -->
+
+
+
+<!-- ##### SECTION ./tmpl/gnome-bluetooth-enum-types.sgml:Title ##### -->
+gnome-bluetooth-enum-types
+
+
+<!-- ##### MACRO BLUETOOTH_GET_CHOOSER_CLASS ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+<!-- ##### MACRO BLUETOOTH_GET_CLIENT_CLASS ##### -->
+<para>
+
+</para>
+
+@obj: 
+
+<!-- ##### MACRO BLUETOOTH_TYPE_CATEGORY ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO BLUETOOTH_TYPE_COLUMN ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO BLUETOOTH_TYPE_TYPE ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG BluetoothChooser:title ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT BluetoothChooserButtonClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+@chooser_created: 
+
+<!-- ##### STRUCT BluetoothChooserClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+@selected_device_changed: 
+@selected_device_activated: 
+
+<!-- ##### STRUCT BluetoothChooserComboClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+@chooser_created: 
+
+<!-- ##### STRUCT BluetoothClientClass ##### -->
+<para>
+
+</para>
+
+@parent_class: 
+
+<!-- ##### FUNCTION bluetooth_browse_address ##### -->
+<para>
+
+</para>
+
+@object: 
+@address: 
+@timestamp: 
+@callback: 
+@user_data: 
+
+<!-- ##### FUNCTION bluetooth_browse_address_finish ##### -->
+<para>
+
+</para>
+
+@object: 
+@result: 
+@error: 
+@Returns: 
+
+<!-- ##### FUNCTION bluetooth_category_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+<!-- ##### FUNCTION bluetooth_chooser_set_title ##### -->
+<para>
+
+</para>
+
+@self: 
+@title: 
+
+<!-- ##### FUNCTION bluetooth_client_get_device_filter_model ##### -->
+<para>
+
+</para>
+
+@client: 
+@adapter: 
+@func: 
+@data: 
+@destroy: 
+@Returns: 
+
+<!-- ##### FUNCTION bluetooth_column_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+<!-- ##### FUNCTION bluetooth_type_get_type ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+

@@ -1,0 +1,463 @@
+# Norwegian bokmål translation for gnome-bluetooth
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the bluez-gnome package.
+# Kjartan Maraas <kmaraas@gnome.org>, 2007-2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-bluetooth 3.9.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-20 10:22+0200\n"
+"PO-Revision-Date: 2013-06-20 10:23+0200\n"
+"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
+"Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../lib/bluetooth-chooser-button.c:75
+msgid "Click to select device..."
+msgstr "Klikk for å velge enhet …"
+
+#: ../lib/bluetooth-chooser.c:135 ../lib/bluetooth-filter-widget.c:82
+#: ../lib/bluetooth-utils.c:90
+msgid "Unknown"
+msgstr "Ukjent"
+
+#: ../lib/bluetooth-chooser.c:176
+msgid "No adapters available"
+msgstr "Ingen enheter tilgjengelig"
+
+#: ../lib/bluetooth-chooser.c:180 ../lib/bluetooth-chooser.c:804
+msgid "Searching for devices..."
+msgstr "Søker etter enheter …"
+
+#: ../lib/bluetooth-chooser.c:696 ../lib/bluetooth-chooser.c:985
+msgid "Device"
+msgstr "Enhet"
+
+#: ../lib/bluetooth-chooser.c:732
+msgid "Type"
+msgstr "Type"
+
+#: ../lib/bluetooth-chooser.c:987
+msgid "Devices"
+msgstr "Enheter"
+
+#: ../lib/bluetooth-filter-widget.c:72
+msgid "All categories"
+msgstr "Alle kategorier"
+
+#: ../lib/bluetooth-filter-widget.c:74
+msgid "Paired"
+msgstr "Koblet sammen"
+
+#: ../lib/bluetooth-filter-widget.c:76
+msgid "Trusted"
+msgstr "I tillitsforhold"
+
+#: ../lib/bluetooth-filter-widget.c:78
+msgid "Not paired or trusted"
+msgstr "Ikke koblet sammen eller i tillitsforhold"
+
+#: ../lib/bluetooth-filter-widget.c:80
+msgid "Paired or trusted"
+msgstr "Koblet sammen eller i tillitsforhold"
+
+#. This is the title of the filter section of the Bluetooth device chooser.
+#. * It used to say Show Only Bluetooth Devices With...
+#: ../lib/bluetooth-filter-widget.c:231
+msgid "Show:"
+msgstr "Vis:"
+
+#. The device category filter
+#: ../lib/bluetooth-filter-widget.c:247
+msgid "Device _category:"
+msgstr "Enhets_kategori:"
+
+#: ../lib/bluetooth-filter-widget.c:258
+msgid "Select the device category to filter"
+msgstr "Velg enhetskategori som skal filtreres"
+
+#. The device type filter
+#: ../lib/bluetooth-filter-widget.c:272
+msgid "Device _type:"
+msgstr "_Type enhet:"
+
+#: ../lib/bluetooth-filter-widget.c:289
+msgid "Select the device type to filter"
+msgstr "Velg enhetstype som skal filtreres"
+
+#: ../lib/bluetooth-filter-widget.c:295
+msgid "Input devices (mice, keyboards, etc.)"
+msgstr "Inndataenheter (mus, tastatur, etc.)"
+
+#: ../lib/bluetooth-filter-widget.c:299
+msgid "Headphones, headsets and other audio devices"
+msgstr "Hodetelefoner og andre lydenheter"
+
+#: ../lib/bluetooth-utils.c:59
+msgid "All types"
+msgstr "Alle typer"
+
+#: ../lib/bluetooth-utils.c:61
+msgid "Phone"
+msgstr "Telefon"
+
+#: ../lib/bluetooth-utils.c:63
+msgid "Modem"
+msgstr "Modem"
+
+#: ../lib/bluetooth-utils.c:65
+msgid "Computer"
+msgstr "Datamaskin"
+
+#: ../lib/bluetooth-utils.c:67
+msgid "Network"
+msgstr "Nettverk"
+
+#. translators: a hands-free headset, a combination of a single speaker with a microphone
+#: ../lib/bluetooth-utils.c:70
+msgid "Headset"
+msgstr "Hodetelefon"
+
+#: ../lib/bluetooth-utils.c:72
+msgid "Headphones"
+msgstr "Hodetelefoner"
+
+#: ../lib/bluetooth-utils.c:74
+msgid "Audio device"
+msgstr "Lydenhet"
+
+#: ../lib/bluetooth-utils.c:76
+msgid "Keyboard"
+msgstr "Tastatur"
+
+#: ../lib/bluetooth-utils.c:78
+msgid "Mouse"
+msgstr "Mus"
+
+#: ../lib/bluetooth-utils.c:80
+msgid "Camera"
+msgstr "Kamera"
+
+#: ../lib/bluetooth-utils.c:82
+msgid "Printer"
+msgstr "Skriver"
+
+#: ../lib/bluetooth-utils.c:84
+msgid "Joypad"
+msgstr "Joypad"
+
+#: ../lib/bluetooth-utils.c:86
+msgid "Tablet"
+msgstr "Tablet"
+
+#: ../lib/bluetooth-utils.c:88
+msgid "Video device"
+msgstr "Videoenhet"
+
+#: ../lib/plugins/geoclue.c:178
+msgid "Use this GPS device for Geolocation services"
+msgstr "Bruk denne GPS-enheten for Geolocation-tjenester"
+
+#. translators:
+#. * This is in a test plugin, please make sure you add the "(test)" part,
+#. * or leave untranslated
+#: ../lib/plugins/test.c:53
+msgid "Access the Internet using your cell phone (test)"
+msgstr "Koble på internett med mobiltelefon (test)"
+
+#: ../wizard/main.c:217
+#, c-format
+msgid "Please enter the following PIN on '%s':"
+msgstr "Vennligst oppgi følgende PIN på «%s»:"
+
+#: ../wizard/main.c:221
+#, c-format
+msgid ""
+"Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
+msgstr ""
+"Vennligst oppgi følgende PIN på «%s» og trykk «linjeskift» på tastaturet:"
+
+#: ../wizard/main.c:226
+msgid "Please move the joystick of your iCade in the following directions:"
+msgstr "Vennligst beveg styrepinnen på din iCade i følgende retninger:"
+
+#. translators:
+#. * The '%s' is the device name, for example:
+#. * Pairing with 'Sony Bluetooth Headset' cancelled
+#.
+#: ../wizard/main.c:284 ../wizard/main.c:422
+#, c-format
+msgid "Pairing with '%s' cancelled"
+msgstr "Sammenkobling med «%s» avbrutt"
+
+#: ../wizard/main.c:339
+#, c-format
+msgid "Please confirm that the PIN displayed on '%s' matches this one."
+msgstr "Vennligst bekreft at PIN som vises på «%s» er lik denne."
+
+#: ../wizard/main.c:394
+msgid "Please enter the following PIN:"
+msgstr "Vennligst oppgi følgende PIN:"
+
+#. translators:
+#. * The '%s' is the device name, for example:
+#. * Setting up 'Sony Bluetooth Headset' failed
+#.
+#: ../wizard/main.c:480
+#, c-format
+msgid "Setting up '%s' failed"
+msgstr "Oppsett av «%s» feilet"
+
+#. translators:
+#. * The '%s' is the device name, for example:
+#. * Connecting to 'Sony Bluetooth Headset'...
+#.
+#: ../wizard/main.c:540
+#, c-format
+msgid "Connecting to '%s'..."
+msgstr "Kobler til «%s» …"
+
+#. translators:
+#. * The '%s' is the device name, for example:
+#. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
+#.
+#: ../wizard/main.c:605
+#, c-format
+msgid "Please wait while finishing setup on device '%s'..."
+msgstr "Vennligst vent mens oppsett sluttføres på enhet «%s» …"
+
+#: ../wizard/main.c:623
+#, c-format
+msgid "Successfully set up new device '%s'"
+msgstr "Oppsett av ny enhet «%s» fullført"
+
+#: ../wizard/wizard.ui.h:1
+msgid "Bluetooth New Device Setup"
+msgstr "Oppsett av ny Bluetooth-enhet"
+
+#: ../wizard/wizard.ui.h:2
+msgid "PIN _options..."
+msgstr "Alternativer f_or PIN …"
+
+#: ../wizard/wizard.ui.h:3
+msgid "Device Search"
+msgstr "Søk etter enhet"
+
+#: ../wizard/wizard.ui.h:4
+msgid "Device Setup"
+msgstr "Oppsett av enhet"
+
+#: ../wizard/wizard.ui.h:5
+msgid "Finishing Setup"
+msgstr "Fullfører oppsett"
+
+#: ../wizard/wizard.ui.h:6
+msgid "Select the additional services you want to use with your device:"
+msgstr "Velg tilleggstjenester du vil bruke med din enhet:"
+
+#: ../wizard/wizard.ui.h:7
+msgid "Setup Summary"
+msgstr "Sammendrag av oppsett"
+
+#: ../wizard/wizard.ui.h:8
+msgid "PIN Options"
+msgstr "Alternativer for PIN"
+
+#: ../wizard/wizard.ui.h:9
+msgid "_Automatic PIN selection"
+msgstr "_Automatisk valg av PIN"
+
+#. Translators: this is a PIN with a set value, such as 1111, or 0000
+#: ../wizard/wizard.ui.h:11
+msgid "Fixed PIN"
+msgstr "Fast PIN"
+
+#: ../wizard/wizard.ui.h:12
+msgid "'0000' (most headsets, mice and GPS devices)"
+msgstr "«0000» (de fleste hodetelefoner, mus og GPS-enheter)"
+
+#: ../wizard/wizard.ui.h:13
+msgid "'1111'"
+msgstr "1111"
+
+#: ../wizard/wizard.ui.h:14
+msgid "'1234'"
+msgstr "1234"
+
+#: ../wizard/wizard.ui.h:15
+msgid "Do not pair"
+msgstr "Ikke koble sammen"
+
+#: ../wizard/wizard.ui.h:16
+msgid "Custom PIN:"
+msgstr "Egendefinert PIN:"
+
+#: ../wizard/wizard.ui.h:17
+msgid "_Try Again"
+msgstr "Prø_v igjen"
+
+#: ../wizard/wizard.ui.h:18
+msgid "_Quit"
+msgstr "A_vslutt"
+
+#: ../wizard/wizard.ui.h:19
+msgid "_Cancel"
+msgstr "A_vbryt"
+
+#. This is a button to answer: Does the PIN matches the one on the device?
+#: ../wizard/wizard.ui.h:21
+msgid "Does not match"
+msgstr "Passer ikke"
+
+#. This is a button to answer: Does the PIN matches the one on the device?
+#: ../wizard/wizard.ui.h:23
+msgid "Matches"
+msgstr "Er lik"
+
+#: ../wizard/bluetooth-wizard.desktop.in.in.h:1
+msgid "Bluetooth Device Setup"
+msgstr "Oppsett av Bluetooth-enhet"
+
+#: ../wizard/bluetooth-wizard.desktop.in.in.h:2
+msgid "Setup Bluetooth devices"
+msgstr "Sett opp Bluetooth-enheter"
+
+#: ../sendto/main.c:338
+#, c-format
+msgid "%'d second"
+msgid_plural "%'d seconds"
+msgstr[0] "%'d sekund"
+msgstr[1] "%'d sekunder"
+
+#: ../sendto/main.c:343 ../sendto/main.c:356
+#, c-format
+msgid "%'d minute"
+msgid_plural "%'d minutes"
+msgstr[0] "%'d minutt"
+msgstr[1] "%'d minutter"
+
+#: ../sendto/main.c:354
+#, c-format
+msgid "%'d hour"
+msgid_plural "%'d hours"
+msgstr[0] "%'d time"
+msgstr[1] "%'d timer"
+
+#: ../sendto/main.c:364
+#, c-format
+msgid "approximately %'d hour"
+msgid_plural "approximately %'d hours"
+msgstr[0] "omtrent %'d time"
+msgstr[1] "omtrent %'d timer"
+
+#: ../sendto/main.c:377 ../sendto/main.c:479
+msgid "Connecting..."
+msgstr "Kobler til …"
+
+#: ../sendto/main.c:424
+msgid "Bluetooth File Transfer"
+msgstr "Bluetooth-filoverføring"
+
+#: ../sendto/main.c:427
+msgid "_Retry"
+msgstr "P_røv igjen"
+
+#: ../sendto/main.c:449
+msgid "From:"
+msgstr "Fra:"
+
+#: ../sendto/main.c:463
+msgid "To:"
+msgstr "Til:"
+
+#: ../sendto/main.c:508 ../sendto/main.c:526
+msgid "An unknown error occurred"
+msgstr "En ukjent feil oppsto"
+
+#: ../sendto/main.c:519
+msgid ""
+"Make sure that the remote device is switched on and that it accepts "
+"Bluetooth connections"
+msgstr ""
+"Sjekk at ekstern enhet er slått på og at den godtar tilkoblinger via "
+"Bluetooth"
+
+#: ../sendto/main.c:591
+#, c-format
+msgid "Sending %s"
+msgstr "Sender %s"
+
+#: ../sendto/main.c:598 ../sendto/main.c:647
+#, c-format
+msgid "Sending file %d of %d"
+msgstr "Sender fil %d av %d"
+
+#: ../sendto/main.c:643
+#, c-format
+msgid "%d kB/s"
+msgstr "%d kB/s"
+
+#: ../sendto/main.c:645
+#, c-format
+msgid "%d B/s"
+msgstr "%d B/s"
+
+#: ../sendto/main.c:675
+#, c-format
+msgid "%u transfer complete"
+msgid_plural "%u transfers complete"
+msgstr[0] "%u overføring fullført"
+msgstr[1] "%u overføringer fullført"
+
+#: ../sendto/main.c:689
+msgid "There was an error"
+msgstr "En feil oppsto"
+
+#: ../sendto/main.c:725
+msgid "Select device to send to"
+msgstr "Velg enhet å sende til"
+
+#: ../sendto/main.c:730
+msgid "_Send"
+msgstr "_Send"
+
+#: ../sendto/main.c:774
+msgid "Choose files to send"
+msgstr "Velg filer som skal sendes"
+
+#: ../sendto/main.c:777
+msgid "Select"
+msgstr "Velg"
+
+#: ../sendto/main.c:803
+msgid "Remote device to use"
+msgstr "Ekstern enhet som skal brukes"
+
+#: ../sendto/main.c:803
+msgid "ADDRESS"
+msgstr "ADRESSE"
+
+#: ../sendto/main.c:805
+msgid "Remote device's name"
+msgstr "Fjern enhetens navn"
+
+#: ../sendto/main.c:805
+msgid "NAME"
+msgstr "NAVN"
+
+#: ../sendto/main.c:824
+msgid "[FILE...]"
+msgstr "[FIL …]"
+
+#: ../sendto/bluetooth-sendto.desktop.in.in.h:1
+msgid "Bluetooth Transfer"
+msgstr "Bluetooth-overføring"
+
+#: ../sendto/bluetooth-sendto.desktop.in.in.h:2
+msgid "Send files via Bluetooth"
+msgstr "Send filer via Bluetooth"
