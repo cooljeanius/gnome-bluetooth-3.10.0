@@ -17,6 +17,7 @@ install-exec-hook:
 	rm -f $(DESTDIR)$(pkglibdir)/libgnome-bluetooth-applet.la
 uninstall-hook:
 	rm -f $(DESTDIR)$(pkglibdir)/libgnome-bluetooth-applet.so*
+	rm -f $(DESTDIR)$(pkglibdir)/libgnome-bluetooth-applet.*.dylib
 
 include $(INTROSPECTION_MAKEFILE)
 INTROSPECTION_GIRS =

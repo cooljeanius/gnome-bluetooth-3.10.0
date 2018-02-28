@@ -51,6 +51,11 @@ docs/reference/libgnome-bluetooth/gnome-bluetooth.interfaces
 docs/reference/libgnome-bluetooth/gnome-bluetooth.prerequisites
 docs/reference/libgnome-bluetooth/gnome-bluetooth.signals
 docs/reference/libgnome-bluetooth/gnome-bluetooth-un*.txt
+docs/reference/libgnome-bluetooth/html/*.html
+docs/reference/libgnome-bluetooth/html/*.devhelp2
+docs/reference/libgnome-bluetooth/html/*.png
+docs/reference/libgnome-bluetooth/html/*.sgml
+docs/reference/libgnome-bluetooth/html/*.css
 docs/reference/libgnome-bluetooth/*.stamp
 po/Makefile.in
 po/Makefile
@@ -66,3 +71,8 @@ po/*.old.po
 po/cat-id-tbl.tmp
 po/.intltool-merge-cache
 stamp-*
+*.xz
+po/missing
+sendto/bluetooth-sendto.desktop
+po/POTFILES
+dllar.sh

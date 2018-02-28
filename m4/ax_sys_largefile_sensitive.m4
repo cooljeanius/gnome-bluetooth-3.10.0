@@ -1,6 +1,6 @@
-# ==============================================================================
-#  http://www.gnu.org/software/autoconf-archive/ax_sys_largefile_sensitive.html
-# ==============================================================================
+# ===============================================================================
+#  https://www.gnu.org/software/autoconf-archive/ax_sys_largefile_sensitive.html
+# ===============================================================================
 #
 # SYNOPSIS
 #
@@ -14,8 +14,8 @@
 #   is.
 #
 #   This macro builds on top of AC_SYS_LARGEFILE to detect whether special
-#   options are neede to make the code use 64bit off_t - in many setups this
-#   will also make the code use 64bit off_t immediatly.
+#   options are needed to make the code use 64bit off_t - in many setups
+#   this will also make the code use 64bit off_t immediately.
 #
 #   The common use of a LARGEFILE_SENSITIVE config.h-define is to rename
 #   exported functions, usually adding a 64 to the original function name.
@@ -48,7 +48,7 @@
 #   Public License for more details.
 #
 #   You should have received a copy of the GNU General Public License along
-#   with this program. If not, see <http://www.gnu.org/licenses/>.
+#   with this program. If not, see <https://www.gnu.org/licenses/>.
 #
 #   As a special exception, the respective Autoconf Macro's copyright owner
 #   gives unlimited permission to copy, distribute and modify the configure
@@ -63,7 +63,7 @@
 #   modified version of the Autoconf Macro, you may extend this special
 #   exception to the GPL to apply to your modified version as well.
 
-#serial 6
+#serial 10
 
 AU_ALIAS([AC_SYS_LARGEFILE_SENSITIVE], [AX_SYS_LARGEFILE_SENSITIVE])
 AC_DEFUN([AX_SYS_LARGEFILE_SENSITIVE],[dnl

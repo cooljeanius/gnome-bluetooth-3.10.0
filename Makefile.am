@@ -1,6 +1,8 @@
-DEF_SUBDIRS = icons lib applet wizard sendto docs po help
+DEF_SUBDIRS = lib applet wizard sendto docs po help
 
-SUBDIRS = icons lib applet wizard sendto docs po
+SUBDIRS = lib applet wizard sendto docs po
+
+##FIXME: what happened to the icons subdir?
 
 if ENABLE_DOCUMENTATION
 SUBDIRS += help
@@ -14,7 +16,8 @@ DISTCHECK_CONFIGURE_FLAGS = --disable-schemas-install \
 	--disable-desktop-update --disable-mime-update --disable-icon-update \
 	--enable-gtk-doc --disable-scrollkeeper --enable-introspection
 
-DISTCLEANFILES = intltool-extract intltool-update intltool-merge
+DISTCLEANFILES = intltool-extract intltool-update intltool-merge dllar.sh \
+	po/*.lock ./po/.intltool-merge-cache* po/missing
 
 MAINTAINERCLEANFILES = Makefile.in \
 	aclocal.m4 configure config.h.in config.sub config.guess \

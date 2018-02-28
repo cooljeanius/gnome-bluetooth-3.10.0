@@ -5,3 +5,5 @@ proximity/main.c
 sendto/bluetooth-sendto.desktop.in
 wizard/bluetooth-wizard.desktop.in
 wizard/main.c
+sub/sendto/bluetooth-sendto.desktop.in
+sub/wizard/bluetooth-wizard.desktop.in
