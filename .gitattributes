@@ -13,3 +13,13 @@ m4/pkg.m4 linguist-vendored
 m4/gnome-compiler-flags.m4 linguist-vendored
 m4/libtool.m4 linguist-vendored
 m4/lt*.m4 linguist-vendored
+Makefile.in linguist-vendored
+applet/Makefile.in linguist-vendored
+docs/Makefile.in linguist-vendored
+docs/reference/Makefile.in linguist-vendored
+docs/reference/libgnome-bluetooth/Makefile.in linguist-vendored
+help/Makefile.in linguist-vendored
+lib/Makefile.in linguist-vendored
+lib/plugins/Makefile.in linguist-vendored
+sendto/Makefile.in linguist-vendored
+wizard/Makefile.in linguist-vendored
