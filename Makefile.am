@@ -17,7 +17,7 @@ DISTCHECK_CONFIGURE_FLAGS = --disable-schemas-install \
 	--enable-gtk-doc --disable-scrollkeeper --enable-introspection
 
 DISTCLEANFILES = intltool-extract intltool-update intltool-merge dllar.sh \
-	po/*.lock ./po/.intltool-merge-cache* po/missing *~
+	po/*.lock ./po/.intltool-merge-cache* po/missing *~ autoscan.log
 
 MAINTAINERCLEANFILES = Makefile.in \
 	aclocal.m4 configure config.h.in config.sub config.guess \
